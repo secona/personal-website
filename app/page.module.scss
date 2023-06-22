@@ -4,3 +4,9 @@
   display: grid;
   place-items: center;
 }
+
+.links {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
