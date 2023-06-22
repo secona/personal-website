@@ -5,6 +5,7 @@ import styles from "./page.module.scss";
 export default function Home() {
   return (
     <div className={styles.container}>
+      <h1>vito secona</h1>
       <div className={styles.links}>
         <ButtonLink href="https://github.com/secona" bgColor="#333333">
           <GitHub color="white" />

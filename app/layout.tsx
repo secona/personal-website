@@ -1,7 +1,7 @@
 import "./global.scss";
-import { Plus_Jakarta_Sans } from "next/font/google";
+import { Space_Grotesk } from "next/font/google";
 
-const plusJakartaSans = Plus_Jakarta_Sans({ subsets: ["latin"] });
+const plusJakartaSans = Space_Grotesk({ subsets: ["latin"] });
 
 export const metadata = {
   title: "secona",
