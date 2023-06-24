@@ -1,4 +1,4 @@
-export const cn = (...classnames: any[]) => {
+export const cn = (...classnames: (string | undefined)[]) => {
   return classnames.filter(Boolean).join(" ");
 };
 
