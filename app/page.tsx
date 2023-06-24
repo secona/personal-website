@@ -1,11 +1,14 @@
 import { GitHub, Linkedin, Twitter } from "react-feather";
 import { ButtonLink } from "@/components/ButtonLink/ButtonLink";
+import { Card } from "@/components/Card/Card";
 import styles from "./page.module.scss";
 
 export default function Home() {
   return (
     <div className={styles.container}>
-      <h1>vito secona</h1>
+      <Card>
+        <h1>vito secona</h1>
+      </Card>
       <div className={styles.links}>
         <ButtonLink href="https://github.com/secona" bgColor="#333333">
           <GitHub color="white" />
