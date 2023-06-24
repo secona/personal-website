@@ -1,9 +1,10 @@
+@import "@/styles/border-shadows";
+
 .button {
   display: grid;
   place-items: center;
   padding: 0.5rem;
   background-color: lightblue;
-  border: 3px solid black;
-  box-shadow: 4px 4px 0px 0px black;
   cursor: pointer;
+  @include border-shadows;
 }
