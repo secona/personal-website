@@ -7,8 +7,12 @@ import styles from "./page.module.scss";
 export default function Home() {
   return (
     <div className={styles.container}>
-      <Card>
-        <Text.H1>vito secona</Text.H1>
+      <Card className={styles.card}>
+        <Text.H1>Hello, World!</Text.H1>
+        <Text>
+          My name is Vito. I am a Computer Science student at University of
+          Indonesia.
+        </Text>
       </Card>
       <div className={styles.links}>
         <ButtonLink href="https://github.com/secona" bgColor="#333333">
