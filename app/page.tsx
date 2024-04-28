@@ -21,7 +21,7 @@ export default function Home() {
         <ButtonLink href="https://linkedin.com/in/secona" bgColor="#0077b5">
           <Linkedin color="white" />
         </ButtonLink>
-        <ButtonLink href="https://twitter.com/vitosecona" bgColor="#1DA1F2">
+        <ButtonLink href="https://twitter.com/bahasakarat" bgColor="#1DA1F2">
           <Twitter color="white" />
         </ButtonLink>
       </div>
