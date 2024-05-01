@@ -1,28 +1,37 @@
-import { GitHub, Linkedin, Twitter } from "react-feather";
-import { ButtonLink } from "@/components/ButtonLink/ButtonLink";
-import { Card } from "@/components/Card/Card";
-import { Text } from "@/components/Text/Text";
-import styles from "./page.module.scss";
+import Image from "next/image";
+import logo from "./img/logo.png";
+import Link from "next/link";
+import { GithubOutlined, LinkedinFilled, TwitterOutlined } from "@ant-design/icons";
+
+function ButtonLink(props: { href: string, children: React.ReactNode }) {
+  return (
+    <Link href={props.href}>
+      <button className="border-white border-[1px] rounded-lg grid place-items-center p-2">
+        {props.children}
+      </button>
+    </Link>
+  )
+}
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <Card className={styles.card}>
-        <Text.H1>Hello, World!</Text.H1>
-        <Text>
-          My name is Vito. I am a Computer Science student at University of
-          Indonesia.
-        </Text>
-      </Card>
-      <div className={styles.links}>
-        <ButtonLink href="https://github.com/secona" bgColor="#333333">
-          <GitHub color="white" />
+    <div className="min-h-screen w-full flex justify-center items-center flex-col gap-3">
+      <div className="border-white border-[1px] rounded-lg py-10 px-14 flex flex-row items-center gap-20">
+        <div>
+          <p>Hello! My name is</p>
+          <h1 className="text-7xl">SECONA</h1>
+        </div>
+        <Image src={logo} color="white" alt="logo" height={129} width={73} />
+      </div>
+      <div className="flex flex-row gap-3">
+        <ButtonLink href="https://github.com/secona">
+          <GithubOutlined className="text-2xl" />
         </ButtonLink>
-        <ButtonLink href="https://linkedin.com/in/secona" bgColor="#0077b5">
-          <Linkedin color="white" />
+        <ButtonLink href="https://linkedin.com/in/secona">
+          <LinkedinFilled className="text-2xl" />
         </ButtonLink>
-        <ButtonLink href="https://twitter.com/bahasakarat" bgColor="#1DA1F2">
-          <Twitter color="white" />
+        <ButtonLink href="https://twitter.com/bahasakarat">
+          <TwitterOutlined className="text-2xl" />
         </ButtonLink>
       </div>
     </div>
