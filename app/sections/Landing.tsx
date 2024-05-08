@@ -6,7 +6,7 @@ import logo from "../img/logo.png";
 function ButtonLink(props: { href: string, children: React.ReactNode }) {
   return (
     <Link href={props.href}>
-      <button className="border-white border-[1px] rounded-lg grid place-items-center p-2">
+      <button className="border-white border-2 rounded-lg grid place-items-center p-2">
         {props.children}
       </button>
     </Link>
