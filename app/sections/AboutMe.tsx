@@ -1,7 +1,10 @@
+import Image from "next/image";
+import element2 from "../img/element-2.png";
+
 export default function AboutMe() {
   return (
-    <div className="mx-12 grid place-items-center">
-      <div className="py-10 px-14 max-w-4xl">
+    <div className="mx-12 flex flex-row items-center justify-center gap-20 min-h-screen">
+      <div className="max-w-2xl">
         <h1 className="uppercase text-5xl">About Me</h1>
         <br />
         <p>
@@ -20,6 +23,9 @@ export default function AboutMe() {
           learn, improve my skills, becoming a better person, and make
           contributions to the world.
         </p>
+      </div>
+      <div>
+        <Image src={element2} alt="" height={400} />
       </div>
     </div>
   );
