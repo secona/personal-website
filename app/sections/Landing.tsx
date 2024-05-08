@@ -23,17 +23,6 @@ export default function Landing() {
         </div>
         <Image src={logo} color="white" alt="logo" height={129} width={73} />
       </div>
-      <div className="flex flex-row gap-3">
-        <ButtonLink href="https://github.com/secona">
-          <GithubOutlined className="text-2xl" />
-        </ButtonLink>
-        <ButtonLink href="https://linkedin.com/in/secona">
-          <LinkedinFilled className="text-2xl" />
-        </ButtonLink>
-        <ButtonLink href="https://twitter.com/bahasakarat">
-          <TwitterOutlined className="text-2xl" />
-        </ButtonLink>
-      </div>
     </div>
   )
 }

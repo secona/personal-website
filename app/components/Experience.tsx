@@ -9,7 +9,7 @@ export interface ExperienceProps {
 export default function Experience(props: ExperienceProps) {
   return (
     <li className="mb-5">
-      <span className="text-sm italic">{props.startTime} - {props.endTime}</span>
+      <span className="text-sm italic text-gray-500">{props.startTime} - {props.endTime}</span>
       <h1 className="text-lg">
         <span className="text-neon-green">{props.title}</span> — {props.at}
       </h1>
