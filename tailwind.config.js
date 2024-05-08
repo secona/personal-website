@@ -9,7 +9,11 @@ module.exports = {
     fontFamily: {
       "clash-display": "var(--clash-display)",
     },
-    extend: {},
+    extend: {
+      colors: {
+        "neon-green": "#39FF14",
+      },
+    },
   },
   plugins: [],
 }
