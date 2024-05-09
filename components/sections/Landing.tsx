@@ -1,5 +1,4 @@
-import Image from "next/image";
-import logo from "../../app/img/logo.png";
+import SvgLogo from "../icons/Logo";
 
 export default function Landing() {
   return (
@@ -9,7 +8,7 @@ export default function Landing() {
           <p>Hello! My name is</p>
           <h1 className="text-7xl">SECONA</h1>
         </div>
-        <Image src={logo} color="white" alt="logo" height={129} width={73} />
+        <SvgLogo height={175} />
       </div>
     </div>
   )

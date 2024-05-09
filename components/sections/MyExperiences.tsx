@@ -1,15 +1,14 @@
-import Image from "next/image";
 import Experience from "../Experience";
-import element1 from "../../app/img/element-1.png";
+import SvgElementA from "../icons/ElementA";
 
 export default function MyExperiences() {
   return (
     <div className="mx-12 min-h-screen grid place-items-center">
-      <div className="flex flex-row justify-center gap-32">
+      <div className="max-w-5xl flex flex-row justify-center gap-32">
         <div className="grid place-items-center max-h-screen sticky top-0">
-          <Image src={element1} alt="" height={500} />
+          <SvgElementA width={200} />
         </div>
-        <div className="max-w-2xl">
+        <div className="flex-grow">
           <h1 className="uppercase text-5xl">My Experiences</h1>
           <br />
           <ul>
