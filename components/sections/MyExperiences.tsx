@@ -1,6 +1,6 @@
 import Image from "next/image";
-import Experience from "../components/Experience";
-import element1 from "../img/element-1.png";
+import Experience from "../Experience";
+import element1 from "../../app/img/element-1.png";
 
 export default function MyExperiences() {
   return (

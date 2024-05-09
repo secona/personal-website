@@ -1,5 +1,5 @@
 import Image from "next/image";
-import element2 from "../img/element-2.png";
+import element2 from "../../app/img/element-2.png";
 
 export default function AboutMe() {
   return (

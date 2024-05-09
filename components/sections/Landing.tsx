@@ -1,17 +1,5 @@
-import { GithubOutlined, LinkedinFilled, TwitterOutlined } from "@ant-design/icons"
-import Link from "next/link";
 import Image from "next/image";
-import logo from "../img/logo.png";
-
-function ButtonLink(props: { href: string, children: React.ReactNode }) {
-  return (
-    <Link href={props.href}>
-      <button className="border-white border-2 rounded-lg grid place-items-center p-2">
-        {props.children}
-      </button>
-    </Link>
-  )
-}
+import logo from "../../app/img/logo.png";
 
 export default function Landing() {
   return (
