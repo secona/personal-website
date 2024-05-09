@@ -13,7 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={cn(clashDisplay.variable, jetbrainsMono.className, "min-h-screen bg-black text-white")}>
+      <body className={cn(clashDisplay.variable, jetbrainsMono.className, "min-h-screen bg-black text-white overflow-x-hidden")}>
         {children}
       </body>
     </html>
