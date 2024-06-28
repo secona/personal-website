@@ -1,3 +1,4 @@
+import { WarningFilled } from "@ant-design/icons";
 import SvgLogo from "../icons/Logo";
 import SvgTorus from "../icons/Torus";
 
@@ -12,6 +13,10 @@ export default function Landing() {
         </div>
         <SvgLogo height={175} />
       </div>
+      <h6 className="bg-red-500 text-white px-3 rounded-md">
+        <WarningFilled className="mr-1" />
+        Website Under Development
+      </h6>
       <SvgTorus
         className="-z-10 absolute -top-1/2 -right-1/4 rotate-[30deg]"
         height={1000}
