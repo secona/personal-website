@@ -1,7 +1,7 @@
-import AboutMe from "../components/sections/AboutMe";
-import Landing from "../components/sections/Landing";
-import MyExperiences from "../components/sections/MyExperiences";
-import MySocials from "../components/sections/MySocials";
+import AboutMe from "./about-me";
+import Landing from "./landing";
+import MyExperiences from "./my-experiences";
+import MySocials from "./my-socials";
 
 export default function Home() {
   return (

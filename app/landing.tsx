@@ -1,6 +1,6 @@
 import { WarningFilled } from "@ant-design/icons";
-import SvgLogo from "../icons/Logo";
-import SvgTorus from "../icons/Torus";
+import SvgLogo from "./icons/Logo";
+import SvgTorus from "./icons/Torus";
 
 export default function Landing() {
   return (

@@ -1,4 +1,4 @@
-import SvgElementB from "../icons/ElementB";
+import SvgElementB from "./icons/ElementB";
 
 export default function AboutMe() {
   return (

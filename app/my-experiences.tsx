@@ -1,5 +1,5 @@
-import Experience from "../Experience";
-import SvgElementA from "../icons/ElementA";
+import Experience from "./components/Experience";
+import SvgElementA from "./icons/ElementA";
 
 export default function MyExperiences() {
   return (

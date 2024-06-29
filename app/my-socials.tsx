@@ -1,5 +1,5 @@
 import { GithubOutlined, LinkedinFilled, XOutlined } from "@ant-design/icons";
-import Social from "../Social";
+import Social from "./components/Social";
 
 export default function MySocials() {
   return (
