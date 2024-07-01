@@ -13,21 +13,19 @@ export default function MyExperiences() {
           <br />
           <ul>
             <Experience
-              title="IT Development Staff"
-              at="Open House Fasilkom UI 2023"
-              startTime="Aug 2023"
-              endTime="Nov 2023"
-              description={[
-                "Work in a team to develop the Open House Fasilkom UI 2023 website using Next.js, TailwindCSS, and TypeScript."
-              ]}
+              title="Software Engineer Staff"
+              at="Business and Partnerships BEM Fasilkom UI"
+              startTime="Jun 2024"
+              endTime="Present"
+              description={[]}
             />
             <Experience
-              title="Web Development Staff"
-              at="Pesta Rakyat Komputer 2024"
-              startTime="Dec 2023"
+              title="Back End Developer Staff"
+              at="Green Welfare Indonesia"
+              startTime="Jun 2024"
               endTime="Present"
               description={[
-                "Work in a team to develop the PERAK website using Next.js, TailwindCSS, and TypeScript."
+                "Work in a team to develop the backend for Green Welfare Indonesia using Go, Gin, and Gorm."
               ]}
             />
             <Experience
@@ -38,6 +36,24 @@ export default function MyExperiences() {
               description={[
                 "Help PIC and VPIC run the Academy.",
                 "Write the selection task for participants.",
+              ]}
+            />
+            <Experience
+              title="Web Development Staff"
+              at="Pesta Rakyat Komputer 2024"
+              startTime="Dec 2023"
+              endTime="May 2024"
+              description={[
+                "Work in a team to develop the PERAK website using Next.js, TailwindCSS, and TypeScript."
+              ]}
+            />
+            <Experience
+              title="IT Development Staff"
+              at="Open House Fasilkom UI 2023"
+              startTime="Aug 2023"
+              endTime="Nov 2023"
+              description={[
+                "Work in a team to develop the Open House Fasilkom UI 2023 website using Next.js, TailwindCSS, and TypeScript."
               ]}
             />
           </ul>
