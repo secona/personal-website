@@ -3,10 +3,10 @@ import SvgElementA from "./icons/ElementA";
 
 export default function MyExperiences() {
   return (
-    <div className="mx-12 min-h-screen grid place-items-center">
-      <div className="max-w-5xl flex flex-row justify-center gap-32">
-        <div className="grid place-items-center max-h-screen sticky top-0">
-          <SvgElementA width={200} />
+    <div className="mx-8 lg:mx-16 min-h-screen grid place-items-center">
+      <div className="max-w-5xl flex flex-row justify-center gap-14 lg:gap-24">
+        <div className="hidden md:grid place-items-center max-h-screen sticky top-0">
+          <SvgElementA className="w-36 lg:w-48" />
         </div>
         <div className="flex-grow">
           <h1 className="uppercase text-5xl">My Experiences</h1>

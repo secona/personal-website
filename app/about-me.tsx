@@ -2,9 +2,9 @@ import SvgElementB from "./icons/ElementB";
 
 export default function AboutMe() {
   return (
-    <div className="mx-12 min-h-screen grid place-items-center">
-      <div className="max-w-5xl flex flex-row items-center justify-center gap-20 min-h-screen">
-        <div className="flex-grow">
+    <div className="mx-8 lg:mx-16 min-h-screen grid place-items-center">
+      <div className="max-w-5xl flex flex-col md:flex-row items-center md:justify-center gap-10 lg:gap-20 min-h-screen">
+        <div>
           <h1 className="uppercase text-5xl">About Me</h1>
           <br />
           <p>
@@ -24,8 +24,8 @@ export default function AboutMe() {
             contributions to the world.
           </p>
         </div>
-        <div>
-          <SvgElementB height={300}/>
+        <div className="flex-shrink">
+          <SvgElementB className="h-48 md:h-52 lg:h-72" />
         </div>
       </div>
     </div>
