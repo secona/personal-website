@@ -3,7 +3,7 @@ import SvgElementA from "./icons/ElementA";
 
 export default function MyExperiences() {
   return (
-    <div className="mx-8 lg:mx-16 min-h-screen grid place-items-center">
+    <div className="mx-8 lg:mx-16 min-h-screen flex flex-col items-center">
       <div className="max-w-5xl flex flex-row justify-center gap-14 lg:gap-24">
         <div className="hidden md:grid place-items-center max-h-screen sticky top-0">
           <SvgElementA className="w-36 lg:w-48" />

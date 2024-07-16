@@ -3,7 +3,7 @@ import Social from "./components/Social";
 
 export default function MySocials() {
   return (
-    <div className="mx-8 lg:mx-16 grid place-items-center">
+    <div className="mx-8 lg:mx-16 flex flex-col items-center">
       <div className="py-10 max-w-4xl block">
         <h1 className="uppercase text-5xl">My Socials</h1>
         <Social
