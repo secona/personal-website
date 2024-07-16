@@ -3,8 +3,8 @@ import Social from "./components/Social";
 
 export default function MySocials() {
   return (
-    <div className="mx-12 grid place-items-center">
-      <div className="py-10 px-14 w-full max-w-4xl block">
+    <div className="mx-8 lg:mx-16 grid place-items-center">
+      <div className="py-10 max-w-4xl block">
         <h1 className="uppercase text-5xl">My Socials</h1>
         <Social
           icon={<GithubOutlined />}
