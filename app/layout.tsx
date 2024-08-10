@@ -1,6 +1,6 @@
 import { cn } from "@/utils/classnames";
-import "./globals.css";
 import { clashDisplay, jetbrainsMono } from "./fonts/index";
+import "./globals.css";
 
 export const metadata = {
   title: "secona",
@@ -13,7 +13,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={cn(clashDisplay.variable, jetbrainsMono.className, "min-h-screen bg-black text-white overflow-x-hidden")}>
+      <body
+        className={cn(
+          clashDisplay.variable,
+          jetbrainsMono.className,
+          "w-full bg-black text-white overflow-x-hidden"
+        )}
+      >
         {children}
       </body>
     </html>

@@ -1,10 +1,8 @@
-// import { WarningFilled } from "@ant-design/icons";
 import SvgLogo from "./icons/Logo";
-import SvgTorus from "./icons/Torus";
 
 export default function Landing() {
   return (
-    <div className="min-h-screen w-full flex justify-center items-center flex-col gap-3">
+    <div className="min-h-screen w-full flex justify-center items-center flex-col px-10">
       <div className="bg-black border-white border-[1px] rounded-lg py-10 px-14 flex flex-row items-center gap-20">
         <div>
           <p>Hello! My name is</p>
@@ -13,14 +11,6 @@ export default function Landing() {
         </div>
         <SvgLogo height={175} />
       </div>
-      {/*<h6 className="bg-red-500 text-white px-3 rounded-md">
-        <WarningFilled className="mr-1" />
-        Website Under Development
-      </h6>*/}
-      <SvgTorus
-        className="-z-10 absolute -top-1/2 -right-1/4 rotate-[30deg]"
-        height={1000}
-      />
     </div>
   );
 }
