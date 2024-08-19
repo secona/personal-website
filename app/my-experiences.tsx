@@ -13,14 +13,25 @@ export default function MyExperiences() {
           <br />
           <ul>
             <Experience
+              title="PIC of IT Development"
+              at="Open House Fasilkom UI 2024"
+              startTime="Jul 2024"
+              endTime="Present"
+              description={[
+                "Lead a team of 6 people to develop the Open House Fasilkom UI Website, including participant registration, ambassador registration."
+              ]}
+            />
+            <Experience
               title="Software Engineer Staff"
               at="Business and Partnerships BEM Fasilkom UI"
               startTime="Jun 2024"
               endTime="Present"
-              description={[]}
+              description={[
+                "Software engineering mentor at SBF (Sekolah BEM Fasilkom)."
+              ]}
             />
             <Experience
-              title="Back End Developer Staff"
+              title="Backend Developer Staff"
               at="Green Welfare Indonesia"
               startTime="Jun 2024"
               endTime="Present"
@@ -39,7 +50,7 @@ export default function MyExperiences() {
               ]}
             />
             <Experience
-              title="Web Development Staff"
+              title="Web Developer Staff"
               at="Pesta Rakyat Komputer 2024"
               startTime="Dec 2023"
               endTime="May 2024"
